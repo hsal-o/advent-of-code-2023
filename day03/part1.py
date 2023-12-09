@@ -49,7 +49,7 @@ def main():
                                 # Process number
                                 number = grid[y][x]
 
-                                # # Add digits to the left
+                                # Add digits to the left
                                 for _x in range(x-1, -1, - 1):
                                     if(_x >= 0):
                                         if(grid[y][_x].isdigit()):
