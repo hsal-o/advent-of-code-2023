@@ -1,2 +1,4 @@
-# advent-of-code-2023
-My solutions to Advent of Code 2023
+# Advent of Code 2023
+This repository houses all my solutions to Advent of Code 2023.
+
+All solutions are written in Python.
