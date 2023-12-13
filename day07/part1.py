@@ -1,6 +1,7 @@
 from enum import Enum
 from collections import Counter
 from functools import cmp_to_key
+import time
 
 def get_lines_from_file(file_name):
     try:
@@ -94,6 +95,8 @@ def compare_hands(hand_1, hand_2):
         return 0 # Both hands are equal
 
 def main():
+    start_time = time.time()
+
     # Input text
     lines = get_lines_from_file("input.txt")
 
@@ -109,6 +112,9 @@ def main():
 
     print(f"total_winnings: {total_winnings}")
 
+    # Calculate the elapsed time
+    elapsed_time = time.time() - start_time
+    print(f"Elapsed time: {elapsed_time:.3f} seconds")
 
 if __name__ == "__main__":
     hands_list = []
