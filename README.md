@@ -12,6 +12,7 @@ This repository houses all my solutions to Advent of Code 2023.
 | Day06 | ⭐⭐ |
 | Day07 | ⭐⭐ |
 | Day08 | ⭐⭐ |
+| Day09 | ⭐ |
 
 To-Do:
 Make README prettier to look at
