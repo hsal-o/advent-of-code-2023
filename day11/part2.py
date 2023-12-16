@@ -130,5 +130,5 @@ if __name__ == "__main__":
     galaxy_count = 0
     empty_rows = []
     empty_cols = []
-    empty_size = 2
+    empty_size = 1000000
     main()
